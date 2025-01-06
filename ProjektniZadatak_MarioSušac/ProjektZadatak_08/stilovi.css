@@ -1,0 +1,120 @@
+
+
+body, html {
+	font-family: Comic Sans MS, cursive;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.baner-slika {
+	background-image: url("images/baner1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+
+h1,h2 {
+	font-size: 1.5em;
+	color: DarkTurquoise;
+	margin: 10px;
+}
+
+p {
+	color: black;
+	margin: 0.5me;
+}
+
+figure {
+	padding: 1em;
+	margin: 0me;
+	float: left;
+	width: 40%;
+	border: 1px solid black;
+}
+figcaption {
+	font-size: 70%;
+}
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+}
+
+footer {
+	background-color: #333;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+
+footer img {
+	width: 20px;
+}
+
+.wrapp {
+	padding: 1em;
+}
+
+.novost {
+	/*padding: 1em;*/
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+.slika-novost {
+	float: left;
+	width: 200px;
+	margin: 0.5em;
+}
+
+form { 
+	width: 500px;
+}
+
+#gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 22%;
+	border: 1px solid black;
+}
+#gallery figcaption {
+	font-size: 90%;
+	height: 20px;
+	text-align: center;
+}
+#gallery img {
+	width: 100%;
+}
